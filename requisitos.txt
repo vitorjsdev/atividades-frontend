@@ -1,0 +1,21 @@
+# Documentação de Requisitos - Sistema de Gestão Escolar
+
+## 1. Requisitos Funcionais (RF)
+
+| ID   | Descrição | Prioridade |
+|------|-----------|------------|
+| RF01 | O sistema deve permitir o cadastro de alunos informando Nome e Idade. | Alta |
+| RF02 | O sistema deve permitir o lançamento de 3 notas para cada aluno. | Alta |
+| RF03 | O sistema deve calcular automaticamente a média aritmética das notas. | Alta |
+| RF04 | O sistema deve exibir a situação do aluno (Aprovado, Recuperação, Reprovado) baseado na média. | Alta |
+| RF05 | O sistema deve listar todos os alunos cadastrados em uma tabela. | Média |
+| RF06 | O sistema deve permitir excluir um aluno da lista. | Baixa |
+
+## 2. Requisitos Não Funcionais (RNF)
+
+| ID    | Descrição | Categoria |
+|-------|-----------|-----------|
+| RNF01 | O sistema deve ser responsivo e funcionar bem em celulares e computadores. | Usabilidade |
+| RNF02 | O cálculo da média deve ser exibido em menos de 1 segundo após o clique. | Desempenho |
+| RNF03 | A interface deve ser limpa, seguindo padrões de cores acessíveis. | Design |
+| RNF04 | O sistema deve ser desenvolvido utilizando HTML, CSS e JavaScript (ou React). | Implementação |
