@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de Exercícios - Aula 09</title>
+</head>
+<body>
+    <h1>Aula 09 - Vetores e Matrizes</h1>
+    <p>Abra o <strong>Console do Navegador (F12)</strong> para ver os resultados dos exercícios.</p>
+    <script>
+        console.log("--- EXERCÍCIOS AULA 09 ---");
+
+        // 1. Soma dos Elementos
+        let vetor1 = [10, 20, 30, 40, 50];
+        let soma = 0;
+        for(let n of vetor1) soma += n;
+        console.log("1. Soma de [10,20,30,40,50]:", soma);
+
+        // 2. Maior e Menor
+        let maior = Math.max(...vetor1);
+        let menor = Math.min(...vetor1);
+        console.log("2. Maior:", maior, "Menor:", menor);
+
+        // 4. Tabela de Notas (Matriz)
+        let notas = [
+            [8.0, 7.5, 9.0], // Aluno 1
+            [5.0, 6.0, 5.5]  // Aluno 2
+        ];
+        console.log("4. Matriz de Notas:", notas);
+
+        // 7. Função Dobro
+        function dobro(x) { return x * 2; }
+        console.log("7. Dobro de 5:", dobro(5));
+
+        // 10. Tabuada
+        console.log("10. Tabuada do 2:");
+        for(let i=1; i<=10; i++) {
+            console.log(`2 x ${i} = ${2*i}`);
+        }
+        
+        console.log("--- Fim dos Exercícios ---");
+    </script>
+</body>
+</html>
